@@ -1,0 +1,172 @@
+
+/* HEADER-SECTION */
+.navbar .nav-brand > a{
+    font-weight: 700;
+}
+.navbar .nav-brand a > span{
+    color: #468BFC;
+}
+
+/* BODY SECTION */
+.body .body-wrapper{
+    width: 100%;
+    height: 700px;
+    margin-top: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body .body-wrapper .body-description > h2{
+    color: #343434;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.body .body-wrapper .body-description > h3{
+    color: #468BFC;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.body .body-wrapper .body-description > p{
+    color: #575757;
+    margin: 1.5rem 0;
+}
+
+/*FOOTER SECTION */
+.footer{
+    background: #FFF;
+}
+.footer .footer-wrapper{
+    width: 100%;
+    height: 100%;
+}
+.footer .footer-wrapper .footer-left > p{
+    color: #343434;
+}
+.footer .footer-wrapper .footer-left p > a{
+    color: #468BFC;
+}
+.footer .footer-wrapper .footer-left p > a:hover{
+    color: #66A0FF;
+}
+.footer .footer-wrapper .footer-right i{
+    color: #343434;
+    font-size: 1.5rem;
+    opacity: 0.6;
+}
+.footer .footer-wrapper .footer-right i:hover{
+    color: #66A0FF;
+    opacity: 0.9;
+}
+
+/* REGISTER SECTION */
+.register{
+    width: 100%;
+    height: 770px;
+}
+.register .register-wrapper{
+    margin: 0 auto;
+    margin-top: 3rem;
+    transform: translateY(15%);
+    border-radius: 10px;
+    width: 450px;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.register .register-header{
+    background: #D1D1D1;
+    border-radius: 10px 10px 0 0;
+    padding: 1rem 1rem;
+}
+.register .register-inputs{
+    padding: 2rem 2rem;
+}
+.register .form-label{
+    color: #343434;
+    font-weight: 500;
+    margin-left: 2px;
+}
+.register-inputs p{
+    font-size: 0.8rem;
+    color: #343434;
+}
+.register-inputs a{
+    color: #468BFC;
+}
+.register-inputs a:hover{
+    color: #66A0FF;
+    text-decoration: underline;
+}
+
+/* Login SECTION */
+.login{
+    width: 100%;
+    height: 800px;
+}
+.login .login-wrapper{
+    margin: 0 auto;
+    margin-top: 1rem;
+    transform: translateY(30%);
+    border-radius: 10px;
+    width: 450px;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.login .login-header{
+    background: #D1D1D1;
+    border-radius: 10px 10px 0 0;
+    padding: 1rem 1rem;
+}
+.login .login-inputs{
+    padding: 2rem 2rem;
+}
+.login .form-label{
+    color: #343434;
+    font-weight: 500;
+    margin-left: 2px;
+}
+.login-inputs p{
+    font-size: 0.8rem;
+    color: #343434;
+}
+.login-inputs a{
+    color: #468BFC;
+}
+.login-inputs a:hover{
+    color: #66A0FF;
+    text-decoration: underline;
+}
+
+/* Dashboard */
+.dashboard{
+    width: 100%;
+    height: 100%;
+}
+
+
+@media only screen and (max-width: 768px){
+    /* BODY SECTION */
+    .body .body-wrapper{
+        height: 600px;
+        margin-top: 0;
+    }
+    .body .body-wrapper .body-description > h2{
+        font-size: 2rem;
+    }
+    .body .body-wrapper .body-description > h3{
+        font-size: 2rem;
+    }  
+    /* REGISTER SECTION */
+    .register .register-wrapper{
+        margin-top: 7rem;
+        margin-bottom: 3rem;
+        transform: translateY(0);
+        width: 100%;    
+    }
+    /* LOGIN SECTION */
+    .login .login-wrapper{
+        margin-top: 7rem;
+        margin-bottom: 9rem;
+        transform: translateY(0);
+        width: 100%;    
+    }    
+}
